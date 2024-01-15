@@ -1,0 +1,43 @@
+body{
+ text-align: justify;
+ margin-left: 420px;
+ font-size: 17px;
+
+ font-family:-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol',sans-serif; 
+}
+h2{
+    color: rgb(58, 57, 57);
+}
+img{
+    height: 100px;
+
+}
+.format{
+    width:500px;
+    height:25px;
+    margin-bottom: 20px;
+   
+    
+}
+
+.text{
+
+    width:500px;
+    height:60px;
+}
+
+.radio{
+
+    font-size: 12px;
+    background-color: rgb(216, 216, 97);
+}
+button{
+
+
+    width:200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(34, 22, 193);
+   color: white;
+    
+}
