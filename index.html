@@ -104,8 +104,28 @@
 
        <br><label> <p>Weekly/Hourly Salary </p>
         <p>If you selected Weekly/Hourly, please specify. </p>
-        </label><br />
-<br> <input type="text" class="format"/><br />
+        </label>
+ <input type="text" class="format"/><br />
+
+
+<div>
+    <label >Current Salary</label>
+    <p>
+        What is your estimated current salary? Please provide as either:
+        <ul>
+            <li>Hourly rate (if a zero hours contract)</li>
+            <li>Weekly</li>
+            <li>Monthly</li>
+            <li>Yearly gross pay in your current job(s)? If unemployed, select "0"</li>
+        </ul>
+    </p>
+    <select class="select">
+        <option value="lessThan18k">Less than £18k pa</option>
+        <option value="18kto21k">£18k - £21k</option>
+        <option value="25kto30k">£25k - £30k</option>
+        <option value="moreThan30k">More than £30k</option>
+    </select>
+</div>
 
 <br><label> <p>City </p>
     <p>What City are you based in?</p></label>
